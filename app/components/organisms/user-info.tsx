@@ -42,7 +42,7 @@ export const UserInfo = () => {
         variant="contained"
         onClick={handleClickOpen}
       >
-        ログイン
+        로그인
       </Button>
       <Button
         className={classes.button}
@@ -50,7 +50,7 @@ export const UserInfo = () => {
         variant="text"
         onClick={handleClickOpen}
       >
-        サインアップ
+        회원 등록
       </Button>
       <Dialog
         open={open}
@@ -61,12 +61,12 @@ export const UserInfo = () => {
         <DialogTitle id="alert-dialog-title">{"Information"}</DialogTitle>
         <DialogContent>
           <DialogContentText id="alert-dialog-description">
-            {`現在データベース未作成のため実行できません。引き続きハンズオンを進めてください。`}
+            {`현재 데이터베이스가 생성되지 않아 실행할 수 없습니다. 계속해서 실습을 진행해 주세요.`}
           </DialogContentText>
         </DialogContent>
         <DialogActions>
           <Button onClick={handleClose} color="primary">
-            了解
+            완료
           </Button>
         </DialogActions>
       </Dialog>

@@ -15,7 +15,7 @@ COPY . .
 
 # install production dependencies
 RUN yarn install --pure-lockfile --production
-# データベース未作成時点では不要
+# 데이터베이스 미 생성 시에는 필요 없음
 #RUN npx prisma generate
 
 # Save production depenencies installed so we can later copy them in the production image

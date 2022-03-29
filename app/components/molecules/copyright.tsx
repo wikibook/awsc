@@ -5,7 +5,7 @@ import React from "react";
 const CopyrightComponent = () => {
   return (
     <Box mt={8}>
-      <Copyright title={"Copyright © アライとウマカツ 2021"} />
+      <Copyright title={"Copyright © Arai & Umakatsu 2021"} />
     </Box>
   );
 };
