@@ -32,10 +32,10 @@ export const SignupForm = (props: SignupFormProps) => {
         <AccountCircleOutlined />
       </Avatar>
       <Typography component="h1" variant="h5">
-        新規アカウント作成
+        계정 생성
       </Typography>
       <Form
-        submitText="作成"
+        submitText="등록"
         schema={SignupInput}
         initialValues={{ email: "", password: "" }}
         onSubmit={async (values) => {
@@ -59,7 +59,7 @@ export const SignupForm = (props: SignupFormProps) => {
           variant={"outlined"}
           margin={"normal"}
           name="email"
-          label="メールアドレス"
+          label="메일 주소"
           required
           fullWidth
           id={"email"}
@@ -69,7 +69,7 @@ export const SignupForm = (props: SignupFormProps) => {
           variant={"outlined"}
           margin={"normal"}
           name="password"
-          label="パスワード"
+          label="패스워드"
           required
           fullWidth
           id={"password"}
@@ -78,7 +78,7 @@ export const SignupForm = (props: SignupFormProps) => {
         />
       </Form>
       <Button fullWidth color="primary" onClick={() => router.replace("/")}>
-        {"戻る"}
+        {"돌아가기"}
       </Button>
     </div>
   );

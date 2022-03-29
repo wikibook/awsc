@@ -53,10 +53,10 @@ export const LoginForm = ({ onSuccess }: LoginFormProps) => {
         <LockOutlinedIcon />
       </Avatar>
       <Typography component="h1" variant="h5">
-        ログイン
+        로그인
       </Typography>
       <Form
-        submitText="ログイン"
+        submitText="로그인"
         schema={LoginInput}
         initialValues={{ email: "", password: "" }}
         onSubmit={async (values) => {
@@ -78,7 +78,7 @@ export const LoginForm = ({ onSuccess }: LoginFormProps) => {
           variant={"outlined"}
           margin={"normal"}
           name="email"
-          label="メールアドレス"
+          label="메일 주소"
           required
           fullWidth
           id={"email"}
@@ -88,7 +88,7 @@ export const LoginForm = ({ onSuccess }: LoginFormProps) => {
           variant={"outlined"}
           margin={"normal"}
           name="password"
-          label="パスワード"
+          label="패스워드"
           required
           fullWidth
           id={"password"}
@@ -97,7 +97,7 @@ export const LoginForm = ({ onSuccess }: LoginFormProps) => {
         />
       </Form>
       <div style={{ marginTop: "1rem" }}>
-        はじめての方は<Link href="/signup">こちら</Link>
+        처음이신 분은<Link href="/signup">클릭</Link>
       </div>
     </div>
   )

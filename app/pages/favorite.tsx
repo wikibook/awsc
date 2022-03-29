@@ -22,6 +22,6 @@ const FavoritePage: BlitzPage = () => {
 };
 
 FavoritePage.authenticate = true;
-FavoritePage.getLayout = (page) => <Layout title="お気に入り">{page}</Layout>;
+FavoritePage.getLayout = (page) => <Layout title="찜">{page}</Layout>;
 
 export default FavoritePage;

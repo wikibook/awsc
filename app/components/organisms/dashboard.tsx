@@ -177,7 +177,7 @@ export const Dashboard: React.FC<DashboardProps> = ({ title, children }) => {
               <ListItemIcon>
                 <ExitToAppIcon />
               </ListItemIcon>
-              <ListItemText primary="ログアウト" />
+              <ListItemText primary="로그아웃" />
             </ListItem>
           </div>
         </List>

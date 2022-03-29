@@ -18,6 +18,6 @@ const NotificationPage: BlitzPage = () => {
 };
 
 NotificationPage.authenticate = true;
-NotificationPage.getLayout = (page) => <Layout title="通知一覧">{page}</Layout>;
+NotificationPage.getLayout = (page) => <Layout title="알림 목록">{page}</Layout>;
 
 export default NotificationPage;

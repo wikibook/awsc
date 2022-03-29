@@ -76,9 +76,9 @@ export const ItemListForm = ({ router }: ItemListFormProps) => {
         <AddIcon />
       </Fab>
       <FormDialog
-        title={"データを追加"}
+        title={"데이터 추가"}
         detail={
-          "新しいアイテムを追加できます。タイトルとメモを記入してください。"
+          "새로운 아이템을 추가할 수 있습니다. 제목과 메모를 입력해 주세요."
         }
         open={formOpen}
         onClose={() => {

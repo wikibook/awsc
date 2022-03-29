@@ -12,8 +12,8 @@ const seed = async () => {
   for (let i = 0; i < 2; i++) {
     await db.notification.create({
       data: {
-        title: `通知${i + 1}`,
-        description: "コンテナアプリケーションの作成の時間です。",
+        title: `알림${i + 1}`,
+        description: "컨테이너 애플리케이션 생성 시간이다.",
         category: "information",
         updatedAt: undefined,
       },
@@ -22,7 +22,7 @@ const seed = async () => {
 };
 
 const addItems = async () => {
-  // TODO: お花系に全部そろえる
+  // TODO: 꽃 종류를 모두 정리
   await db.item.create({
     data: {
       name: "Flower",

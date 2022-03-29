@@ -9,16 +9,16 @@ const getNotifications = async (_ = null, { session }: Ctx) => {
   //    data: [
   //      {
   //        id: 1,
-  //        title: "通知1",
-  //        description: "通知ダヨ",
+  //        title: "알림1",
+  //        description: "알림",
   //        category: "Information",
   //        read: true,
   //        createdAt: "2021/03/17 10:39:06",
   //      },
   //      {
   //        id: 2,
-  //        title: "通知2",
-  //        description: "通知2ダヨ",
+  //        title: "알림2",
+  //        description: "알림2",
   //        category: "News",
   //        read: false,
   //        createdAt: "2021/04/17 10:39:06",

@@ -32,7 +32,7 @@ export const UserInfo = () => {
           });
         }}
       >
-        ログイン
+        로그인
       </Button>
       <Button
         className={classes.button}
@@ -44,7 +44,7 @@ export const UserInfo = () => {
           });
         }}
       >
-        サインアップ
+        회원 등록
       </Button>
     </>
   );

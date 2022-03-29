@@ -18,7 +18,7 @@ const SignupPage: BlitzPage = () => {
   );
 };
 
-SignupPage.getLayout = (page) => <Layout title="サインアップ">{page}</Layout>;
+SignupPage.getLayout = (page) => <Layout title="이용자 등록">{page}</Layout>;
 SignupPage.redirectAuthenticatedTo = "/top";
 
 export default SignupPage;

@@ -18,6 +18,6 @@ const TopPage: BlitzPage = () => {
 };
 
 TopPage.authenticate = true;
-TopPage.getLayout = (page) => <Layout title="トップ">{page}</Layout>;
+TopPage.getLayout = (page) => <Layout title="Top">{page}</Layout>;
 
 export default TopPage;

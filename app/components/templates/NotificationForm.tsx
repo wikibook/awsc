@@ -71,18 +71,18 @@ export const NotificationForm = ({ router }: NotificationFormProps) => {
                 const result = await readNotifications();
                 if (result.error) {
                   setMessage({
-                    body: "通知の既読処理に失敗しました",
+                    body: "알림 읽음 완료 처리에 실패했습니다.",
                     status: false,
                   });
                 } else {
                   setMessage({
-                    body: "すべての通知を既読にしました",
+                    body: "모든 알림을 읽음 완료로 처리했습니다.",
                     status: true,
                   });
                 }
               } catch (error) {
                 setMessage({
-                  body: "通知の既読処理に失敗しました",
+                  body: "알림 읽음 완료 처리에 실패했습니다.",
                   status: false,
                 });
               } finally {
@@ -90,7 +90,7 @@ export const NotificationForm = ({ router }: NotificationFormProps) => {
               }
             }}
           >
-            すべて既読
+            모두 읽음
           </Button>
         </ListItem>
         {notifications?.map((notif, index) => {

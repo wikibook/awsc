@@ -51,7 +51,7 @@ export const DialogForm = ({ onSuccess, onClose }: DialogFormProps) => {
   return (
     <div className={classes.container}>
       <Form
-        submitText="追加"
+        submitText="추가"
         schema={ItemInput}
         initialValues={{ title: "", name: "", img }}
         onSubmit={async (values) => {
@@ -68,14 +68,14 @@ export const DialogForm = ({ onSuccess, onClose }: DialogFormProps) => {
         <TextField
           margin={"normal"}
           name="title"
-          label="タイトル"
+          label="제목"
           required
           id={"title"}
         />
         <TextField
           margin={"normal"}
           name="name"
-          label="メモ"
+          label="메모"
           required
           id={"name"}
         />

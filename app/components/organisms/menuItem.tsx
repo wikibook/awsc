@@ -18,13 +18,13 @@ export const MainListItems = () => {
         <ListItemIcon>
           <ShoppingCartIcon />
         </ListItemIcon>
-        <ListItemText primary="アイテムリスト" />
+        <ListItemText primary="아이템 목록" />
       </ListItem>
       <ListItem button onClick={() => router.push("/favorite")}>
         <ListItemIcon>
           <FavoriteIcon />
         </ListItemIcon>
-        <ListItemText primary="お気に入り" />
+        <ListItemText primary="찜" />
       </ListItem>
     </div>
   );

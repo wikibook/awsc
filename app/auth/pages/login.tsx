@@ -18,7 +18,7 @@ const LoginPage: BlitzPage = () => {
   );
 };
 
-LoginPage.getLayout = (page) => <Layout title="ログイン">{page}</Layout>;
+LoginPage.getLayout = (page) => <Layout title="로그인">{page}</Layout>;
 LoginPage.redirectAuthenticatedTo = "/top";
 
 export default LoginPage;

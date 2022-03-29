@@ -12,10 +12,10 @@ const getHello = async (_ = null, { session }: Ctx) => {
       error: {
         meta: {
           code: 88,
-          title: "エラー",
+          title: "Error",
         },
         body: {
-          msg: "Hello worldの取得に失敗",
+          msg: "Failed to get Hello world",
         },
       },
     };
